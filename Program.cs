@@ -12,7 +12,6 @@ namespace StudyCasesConsole
         static void Main(string[] args)
         {
             var serviceProvider = new ServiceCollection()
-                //.AddLogging()
                 .AddTransient<IChecksumValidator, ChecksumValidator>()
                 .AddTransient<IDigitParser, DigitParser>()
                 .AddTransient<IParserService, ParserService>()
@@ -26,8 +25,6 @@ namespace StudyCasesConsole
 
             var showMustGoOn = true;
 
-            //Console.ReadLine();
-            //var Console.ReadLine();
             while (showMustGoOn)
             {
                 var linesToProcess = new List<string>();
