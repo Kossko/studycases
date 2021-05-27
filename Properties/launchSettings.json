@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "StudyCasesConsole": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
