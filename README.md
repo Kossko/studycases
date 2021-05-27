@@ -3,7 +3,7 @@ If you want to Debug app loccally just open project and run it.
 If you want to run this project from docker image
 
 Perequisites:
-- Docker Desktop installed
+- Docker Desktop installed ( see https://docs.docker.com/docker-for-windows/install/ )
 
 Once Docker Desktop is installed you should type fallowing commands (cmd or PowerShell) to build docker image and run it in container:
 
@@ -18,6 +18,7 @@ Once Docker Desktop is installed you should type fallowing commands (cmd or Powe
 
 Example: 
 Please provide input or press 'Enter' to quit
+
  _  _  _  _  _  _  _  _
 | || || || || || || ||_   |
 |_||_||_||_||_||_||_| _|  |
